@@ -1,0 +1,55 @@
+/** COMMON **/
+* {
+
+  --decentralized-margin: 30%;
+  --p-font-size: 18px;
+  --h1-font-size: 64px; --h1-font-weight: bold;
+  --h3-font-size: 64px; --h3-font-weight: bold;
+
+  --margin-from-1-to-2: 24px;   /* #2 */
+  --margin-from-2-to-3: -42px;  /* #3 */
+  --margin-from-3-to-4: -42px;  /* #4 */
+
+}
+.section {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
+
+
+/** LANDING **/
+.text-section {
+  margin-right: var(--decentralized-margin);
+}    /* tx */
+.text-p-focus {
+  color: var(--color-text-focus);
+  font-size: var(--p-font-size);
+}    /* #1 */
+.text-h1 {
+  color: var(--color-text-primary);
+  font-weight: var(--h1-font-weight);
+  font-size: var(--h1-font-size);
+  margin-top: var(--margin-from-1-to-2);
+}         /* #2 */
+.text-h3 {
+  color: var(--color-text-secondary);
+  font-weight: var(--h3-font-weight);
+  font-size: var(--h3-font-size);
+  margin-top: var(--margin-from-2-to-3);
+}         /* #3 */
+.text-p-normal {
+  color: var(--color-text-secondary);
+  font-size: var(--p-font-size);
+  margin-top: var(--margin-from-3-to-4);
+}   /* #4 */
+
+
+/** ABOUT **/
+/** PROJECTS **/
+/** CONTACT **/
+

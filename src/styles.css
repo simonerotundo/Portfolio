@@ -1,1 +1,24 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  font-family: 'Inter', sans-serif;
+  color: var(--color-text-secondary);
+
+  /* COLORS */
+  --color-primary: #0B192F;
+  --color-secondary: #64FFDA;
+
+  --color-text-primary: #CCD6F6;
+  --color-text-secondary: #8892AF;
+  --color-text-focus: var(--color-secondary);
+
+  --color-icons: var(--color-text-secondary);
+
+
+  /* background color */
+  background-color: var(--color-primary);
+
+}
+@supports (font-variation-settings: normal) {
+  :root { font-family: 'Inter var', sans-serif; }
+}
+
+.scp-font { font-family: 'Source Code Pro', monospace; }

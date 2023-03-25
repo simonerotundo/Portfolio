@@ -1,0 +1,53 @@
+/** COMMON **/
+.bar-decoration {
+  background-color: var(--color-text-secondary);
+  height: 80px;
+  width: 1px;
+}
+
+/** LEFT SIDE **/
+.social-section {
+  position: fixed;
+  bottom: 0;
+  left: 52px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.social-network-icon {
+  width: 26px;
+  height: 26px;
+  margin-bottom: 16px;
+  transition: transform 0.3s ease-in-out;
+}
+.social-network-icon:hover {
+  cursor: pointer;
+  filter: invert(84%) sepia(21%) saturate(938%) hue-rotate(106deg) brightness(101%) contrast(105%);
+  transform: translateY(-5px);
+}
+
+/** RIGHT SIDE **/
+.email-section {
+  position: fixed;
+  bottom: 0;
+  right: 52px;
+  display: flex;
+  flex-direction: column;
+}
+.email {
+  color: var(--color-text-secondary);
+  writing-mode: vertical-lr;
+  margin-bottom: 16px;
+  margin-left: -7px;
+  font-size: 18px;
+  transition: transform 0.3s ease-in-out;
+}
+.email:hover {
+  cursor: pointer;
+  color: var(--color-text-focus);
+  transform: translateY(-5px);
+}
+.no-link-decoration {
+  text-decoration: none;
+  color: var(--color-text-secondary);
+}
