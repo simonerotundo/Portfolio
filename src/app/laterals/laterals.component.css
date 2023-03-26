@@ -18,12 +18,12 @@
   width: 26px;
   height: 26px;
   margin-bottom: 16px;
-  transition: transform 0.3s ease-in-out;
+  transition: var(--transition-params)
 }
 .social-network-icon:hover {
   cursor: pointer;
   filter: invert(84%) sepia(21%) saturate(938%) hue-rotate(106deg) brightness(101%) contrast(105%);
-  transform: translateY(-5px);
+  transform: var(--transform-params);
 }
 
 /** RIGHT SIDE **/

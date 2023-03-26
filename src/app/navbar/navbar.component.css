@@ -1,0 +1,54 @@
+.navbar {
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: space-between;
+  height: 62px;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-top: 46px;
+}
+
+.navbar-brand { /* todo: aggiungere una foto */
+  display: flex;
+  height: 62px;
+  width: 62px;
+  background-color: var(--color-secondary);
+  margin-left: 52px;
+}
+
+.navbar-menu {
+  display: flex;
+  align-items: center;
+}
+.navbar-menu .navbar-link {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  transition: var(--transition-params);
+  display: flex;
+  align-items: center;
+  margin-right: 42px;
+}
+.navbar-menu .navbar-link:hover {
+  color: var(--color-text-focus);
+  transform: var(--transform-params);
+}
+.focus-button-margin {
+  margin-right: 52px;
+}
+
+.text-p-normal {
+  color: var(--color-text-secondary);
+  font-size: var(--p-font-size);
+  margin-top: var(--margin-from-3-to-4);
+}
+.text-p-focus {
+  color: var(--color-text-focus);
+  font-size: var(--p-font-size);
+}
+.one-sp-right {
+  padding-right: 12px;
+}

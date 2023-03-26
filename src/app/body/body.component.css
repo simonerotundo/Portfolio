@@ -25,7 +25,7 @@
 /** LANDING **/
 .text-section {
   margin-right: var(--decentralized-margin);
-}    /* tx */
+}
 .text-p-focus {
   color: var(--color-text-focus);
   font-size: var(--p-font-size);
